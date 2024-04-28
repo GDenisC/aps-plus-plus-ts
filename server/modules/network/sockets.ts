@@ -13,7 +13,7 @@ global.players = [];
 global.clients = [];
 
 export interface DisconnectionInterface {
-    body: any; /* Entity */
+    body: Entity;
     ip: string;
     timeout: NodeJS.Timeout;
 }
